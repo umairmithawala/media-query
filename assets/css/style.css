@@ -34,7 +34,7 @@
     }
 }
 
-/* Small Phone */
+/*  Phone */
 @media only screen and  (min-width:300px) {
     .desktop{
         display: none;
@@ -49,9 +49,6 @@
         display: none;
     }
     .phone{
-        display: none;
-    }
-    .s-phone{
         display: block;
     }
     .watch{
@@ -59,30 +56,6 @@
     }
 }
 
-/* Phone */
-@media only screen and  (min-width:500px) {
-    .desktop{
-        display: none;
-    }
-    .leptop{
-        display: none;
-    }
-    .landscap-tab{
-        display: none;
-    }
-    .potrait-tab{
-        display: none;
-    }
-    .phone{
-        display: block;
-    }
-    .s-phone{
-        display: none;
-    }
-    .watch{
-        display: none;
-    }
-}
 
 /*Potraita tablets and large phone*/
 @media only screen and (min-width:600px) {
